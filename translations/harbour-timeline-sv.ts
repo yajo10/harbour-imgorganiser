@@ -4,14 +4,6 @@
 <context>
     <name>AboutPage</name>
     <message>
-        <source>Activating &apos;Metadata&apos; for dateTime and album keywords applies EXIF/IPTC data from JPG files directly. </source>
-        <translation>Aktivering av &quot;Metadata&quot; för datum, tid och albumnyckelord, tillämpar EXIF/IPTC-data direkt från JPG-filer. </translation>
-    </message>
-    <message>
-        <source>ImgOrganizer is an image gallery and viewer for SailfishOS with support for chronological timeline, custom albums, folders as well as search for date and filename. </source>
-        <translation>ImgOrganizer är ett bildgalleri och -visare för SailfishOS med stöd för kronologisk tidslinje, anpassade album och mappar, samt sökning efter datum och filnamn. </translation>
-    </message>
-    <message>
         <source>Be aware that adding a large number of images to your device at once may slow down the following app-start until new thumbnails are generated. </source>
         <translation>Notera att om du lägger till ett stort antal bilder på enheten samtidigt, kan påföljande appstart saktas ner, tills nya miniatyrbilder genererats. </translation>
     </message>
@@ -20,31 +12,27 @@
         <translation>Vid synkronisering av bilder och databas, medan en annan app ändrar en fil samtidigt som ImgOrganizer körs, långtryck på symbolen för Inställningar eller starta om den här appen. </translation>
     </message>
     <message>
-        <source>Thanksgiving, feedback and support is always welcome. </source>
-        <translation>Tack, återkoppling och stöd är alltid välkommet. </translation>
+        <source>Usability hints:</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>ImgOrganizer</source>
-        <translation>ImgOrganizer</translation>
+        <source>Alum sid plurum libitum ad cetera et amet sit dolor ipsum lorem.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>To set multiple keywords, you may use commas (&quot;,&quot;) as separator in album-name. </source>
-        <translation>För att ange flera nyckelord kan du använda kommatecken (,) som separator i albumnamnet. </translation>
+        <source>Metadata</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Activating &apos;Metadata&apos; for dateTime and album keywords applies EXIF/IPTC data from JPG files directly. </source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>When assigning an album this info will also be stored as keyword inside your JPG file for use with external programs. </source>
-        <translation>När ett album tilldelas, lagras den här informationen också som nyckelord i JPG-filen för användning med externa program. </translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>tp.labs@protonmail.com</source>
-        <translation>tp.labs@protonmail.com</translation>
-    </message>
-    <message>
-        <source>Usability hints: </source>
-        <translation>Användningstips: </translation>
-    </message>
-    <message>
-        <source>Copyright © 2021-2023 Tobias Planitzer</source>
+        <source>To set multiple keywords, you may use commas (&quot;,&quot;) as separator in album-name. </source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -310,6 +298,145 @@
     <message>
         <source>File Browser</source>
         <translation>File Browser</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation type="unfinished">Om</translation>
+    </message>
+</context>
+<context>
+    <name>LicenseListPart</name>
+    <message>
+        <source>License text</source>
+        <translation>Licenstext</translation>
+    </message>
+</context>
+<context>
+    <name>Opal.About</name>
+    <message>
+        <source>About</source>
+        <translation>Om</translation>
+    </message>
+    <message>
+        <source>Version %1</source>
+        <translation>Version %1</translation>
+    </message>
+    <message>
+        <source>Development</source>
+        <translation>Utveckling</translation>
+    </message>
+    <message>
+        <source>show contributors</source>
+        <translation>visa medverkande</translation>
+    </message>
+    <message>
+        <source>Homepage</source>
+        <translation>Hemsida</translation>
+    </message>
+    <message>
+        <source>Changelog</source>
+        <translation>Ändringslogg</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Översättning</translation>
+    </message>
+    <message>
+        <source>Source Code</source>
+        <translation>Källkod</translation>
+    </message>
+    <message>
+        <source>Donations</source>
+        <translation>Donationer</translation>
+    </message>
+    <message>
+        <source>License</source>
+        <translation>Licens</translation>
+    </message>
+    <message numerus="yes">
+        <source>show license(s)</source>
+        <translation>
+            <numerusform>visa licens</numerusform>
+            <numerusform>visa licenser</numerusform>
+        </translation>
+    </message>
+    <message>
+        <source>Contributors</source>
+        <translation>Medverkande</translation>
+    </message>
+    <message>
+        <source>Acknowledgements</source>
+        <translation>Bekräftelser</translation>
+    </message>
+    <message>
+        <source>Thank you!</source>
+        <translation>Tack!</translation>
+    </message>
+    <message>
+        <source>Details</source>
+        <translation>Detaljerat</translation>
+    </message>
+    <message>
+        <source>show details</source>
+        <translation>visa detaljerat</translation>
+    </message>
+    <message>
+        <source>Download license texts</source>
+        <translation>Ladda ner licenstexter</translation>
+    </message>
+    <message numerus="yes">
+        <source>License(s)</source>
+        <translation>
+            <numerusform>Licens</numerusform>
+            <numerusform>Licenser</numerusform>
+        </translation>
+    </message>
+    <message>
+        <source>Note: please check the source code for most accurate information.</source>
+        <translation>Notis: Kontrollera källkoden för mest korrekt information.</translation>
+    </message>
+    <message>
+        <source>External Link</source>
+        <translation>Extern länk</translation>
+    </message>
+    <message>
+        <source>Open in browser</source>
+        <translation>Öppna i webbläsare</translation>
+    </message>
+    <message>
+        <source>Copied to clipboard: %1</source>
+        <translation>Kopierat till urklipp: %1</translation>
+    </message>
+    <message>
+        <source>Copy to clipboard</source>
+        <translation>Kopiera till urklipp</translation>
+    </message>
+    <message>
+        <source>Please refer to &lt;a href=&quot;%1&quot;&gt;%1&lt;/a&gt;</source>
+        <translation>Se &lt;a href=&quot;%1&quot;&gt;%1&lt;/a&gt;</translation>
+    </message>
+    <message>
+        <source>News</source>
+        <translation>Nyheter</translation>
+    </message>
+    <message>
+        <source>Changes since version %1</source>
+        <translation>Ändrat sedan version %1</translation>
+    </message>
+</context>
+<context>
+    <name>Opal.About.Common</name>
+    <message>
+        <source>If you want to support my work, you can buy me a cup of coffee.</source>
+        <translation>Om du vill stödja mitt arbete, kan du bjuda mig på en kopp kaffe.</translation>
+    </message>
+    <message>
+        <source>You can support this project by contributing, or by donating using any of these services.</source>
+        <translation>Du kan stödja projektet genom kodbidrag eller donation med hjälp av dessa tjänster.</translation>
+    </message>
+    <message>
+        <source>Your contributions to translations or code would be most welcome.</source>
+        <translation>Kodbidrag eller översättningar är väldigt välkommet.</translation>
     </message>
 </context>
 <context>

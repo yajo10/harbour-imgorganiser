@@ -1,7 +1,7 @@
 Name: harbour-timeline
 Summary: ImgOrganizer
-Version: 0.5
-Release: 4
+Version: 0.6
+Release: 5
 # The contents of the Group field should be one of the groups listed here:
 # https://github.com/mer-tools/spectacle/blob/master/data/GROUPS
 Group: Qt/Qt
@@ -34,6 +34,9 @@ Requires:
   - sailfish-version >= 4.2
   - python3-imaging
 
+Macros:
+  - __provides_exclude_from;^%{_datadir}/.*$
+
 # All installed files
 Files:
   - '%{_bindir}'
@@ -42,6 +45,7 @@ Files:
   - '%{_datadir}/icons/hicolor/*/apps/%{name}.png'
   - '%attr(644,root,root) %{_datadir}/%{name}/qml/py/timelinex.py'
   - '%attr(644,root,root) %{_datadir}/%{name}/qml/py/iptcinfo3.py'
+  - '%attr(755,root,root) %{_datadir}/%{name}/qml/py/piexif/'
 
 # For more information about yaml and what's supported in Sailfish OS
 # build system, please see https://wiki.merproject.org/wiki/Spectacle

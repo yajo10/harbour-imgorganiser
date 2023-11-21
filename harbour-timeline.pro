@@ -16,6 +16,8 @@ CONFIG += sailfishapp
 
 SOURCES += src/harbour-timeline.cpp
 
+QML_IMPORT_PATH += qml/modules
+
 DISTFILES += qml/harbour-timeline.qml \
     qml/cover/CoverPage.qml \
     qml/pages/AboutPage.qml \

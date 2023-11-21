@@ -1071,6 +1071,12 @@ Page {
                         py.runCMDtool("harbour-file-browser")
                     }
                 }
+                MenuItem {
+                    text: qsTr("About")
+                    onClicked:  {
+                        pageStack.animatorPush(Qt.resolvedUrl("AboutPage.qml"), {})
+                    }
+                }
             }
             VerticalScrollDecorator {}
             BusyIndicator {

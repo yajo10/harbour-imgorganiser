@@ -7,10 +7,11 @@ Name:       harbour-timeline
 
 # >> macros
 # << macros
+%define __provides_exclude_from ^%{_datadir}/.*$
 
 Summary:    ImgOrganizer
-Version:    0.5
-Release:    4
+Version:    0.6
+Release:    5
 Group:      Qt/Qt
 License:    GPL v3
 URL:        http://example.org/
@@ -68,5 +69,6 @@ desktop-file-install --delete-original       \
 %{_datadir}/icons/hicolor/*/apps/%{name}.png
 %attr(644,root,root) %{_datadir}/%{name}/qml/py/timelinex.py
 %attr(644,root,root) %{_datadir}/%{name}/qml/py/iptcinfo3.py
+%attr(755,root,root) %{_datadir}/%{name}/qml/py/piexif/
 # >> files
 # << files
