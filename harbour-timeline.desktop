@@ -1,0 +1,25 @@
+[Desktop Entry]
+Type=Application
+X-Nemo-Application-Type=silica-qt5
+Icon=harbour-timeline
+Exec=harbour-timeline
+#MimeType=image/*
+Name=ImgOrganizer
+# translation example:
+# your app name in German locale (de)
+#
+# Remember to comment out the following line, if you do not want to use
+# a different app name in German locale (de).
+#Name[de]=Zeitstrahl
+#Name[sv]=ImgOrganizer
+
+# added for backing up the database with "My Backup"
+[X-HarbourBackup]
+BackupPathList=.local/share/harbour-timeline/
+BackupConfigList=/apps/harbour-timeline/
+
+# added for SailJail
+[X-Sailjail]
+OrganizationName=org.tplabs
+ApplicationName=ImgOrganizer
+Sandboxing=Disabled
