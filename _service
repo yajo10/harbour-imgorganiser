@@ -1,0 +1,7 @@
+<services>
+    <service name="tar_git">
+    <param name="url">https://github.com/yajo10/harbour-imgorganizer</param>
+    <param name="branch">master</param>
+    <param name="revision"></param>
+    </service>
+</services>

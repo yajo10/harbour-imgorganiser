@@ -30,6 +30,27 @@ BuildRequires:  desktop-file-utils
 %description
 Show images on your device in chronological order and sort in albums.
 
+%if 0%{?_chum}
+Title: ImgOrganizer
+Type: desktop-application
+DeveloperName: yajo
+Categories:
+ - Media
+ - Photo
+Custom:
+  Repo: https://github.com/yajo/harbour-imgorganizer
+PackageIcon: https://github.com/yajo10/harbour-imgorganizer/raw/master/icons/172x172/harbour-timeline.png
+Screenshots:
+ - https://github.com/yajo10/harbour-imgorganizer/raw/master/screenshots/screenshot1.jpg
+ - https://github.com/yajo10/harbour-imgorganizer/raw/master/screenshots/screenshot2.jpg
+ - https://github.com/yajo10/harbour-imgorganizer/raw/master/screenshots/screenshot3.jpg
+ - https://github.com/yajo10/harbour-imgorganizer/raw/master/screenshots/screenshot4.jpg
+Links:
+  Homepage: https://github.com/yajo10/harbour-imgorganizer
+  Help: https://github.com/yajo10/harbour-imgorganizer/issues
+  Bugtracker: https://github.com/yajo10/harbour-imgorganizer/issues
+  Donation: https://liberapay.com/yajo10/donate
+%endif
 
 %prep
 %setup -q -n %{name}-%{version}
