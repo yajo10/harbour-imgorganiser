@@ -13,8 +13,8 @@ Summary:    ImgOrganizer
 Version:    0.6
 Release:    5
 Group:      Qt/Qt
-License:    GPL v3
-URL:        http://example.org/
+License:    GPL-3.0-only
+URL:        https://github.com/yajo10/harbour-imgorganizer
 Source0:    %{name}-%{version}.tar.bz2
 Source100:  harbour-timeline.yaml
 Requires:   sailfishsilica-qt5 >= 0.10.9
@@ -38,7 +38,7 @@ Categories:
  - Media
  - Photo
 Custom:
-  Repo: https://github.com/yajo/harbour-imgorganizer
+  Repo: https://github.com/yajo10/harbour-imgorganizer
 PackageIcon: https://github.com/yajo10/harbour-imgorganizer/raw/master/icons/172x172/harbour-timeline.png
 Screenshots:
  - https://github.com/yajo10/harbour-imgorganizer/raw/master/screenshots/screenshot1.jpg
